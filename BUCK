@@ -1,7 +1,7 @@
 include_defs('//BUCKAROO_DEPS')
 
 prebuilt_cxx_library(
-  name = 'boost-xpressive',
+  name = 'xpressive',
   header_only = True,
   header_namespace = 'boost/xpressive',
   exported_headers = subdir_glob([
